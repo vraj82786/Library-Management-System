@@ -1,0 +1,93 @@
+<?php   
+session_start();  
+if(!isset($_SESSION["sess_user"])){  
+    header("location:login.php");  
+} else {  
+?>
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+LIBMASY
+</title>
+<style>
+body
+{
+background-image:url("cdj.png");
+background-size:100% 200%;
+bac
+}
+.header
+{ background-color:black;
+padding:15px;
+text-align:center;
+border:solid 5px gold;
+border-radius:100px;
+margin-left:75px;
+color:gold;
+}
+.header2
+{
+ background-color:black;
+padding:15px;
+text-align:center;
+border:solid 5px gold;
+color:gold	;
+border-radius:400px;
+width:50%;
+margin-left:310px;
+margin-bottom:30px;
+}
+.lab{
+background-color:gold;
+border:outset 5px black;
+padding:5px;
+margin:5px;
+border-radius:25px;
+width:75px;
+display:inline-block;
+}
+.nav_menu
+{
+ overflow:hidden;
+background-color:black;
+border:solid 5px yellow;
+border-radius:5px;
+width:794px;	
+margin-left:19.5%;
+}
+.nav_menu a{
+float:left;
+display:block;
+color:gold;
+text-align:center;
+padding:14px 16px;
+text-decoration:none;
+border:solid 2px gold;
+}
+.nav_menu a:hover
+{
+background-color:gold;color:black;
+}
+</style>
+</head>
+<body>
+<div>
+<img src="cdj2.png" class="header">
+<div class="header2">LIBRARY</div>
+<div class="nav_menu">
+<a href="enroll.php" target="_self">NEW ENROLL</a>
+<a href="book.php" target="_self">NEW BOOK</a>
+<a href="ibook.php" target="_self">ISSUE BOOK</a>
+<a href="slog.php" target="_self">LOG IN</a>
+<a href="stud.php" target="_self">STUDENTS</a>
+<a href="books.php" target="_self">BOOKS</a>
+<a href="repo.php" target="_self">REPORTS</a>
+</div>
+</div>
+<center><button type="button" name="logout" class="lab" onclick="window.location.href='logout.php'">Log Out</button></center>
+</body>
+</html>
+<?php
+}
+?>

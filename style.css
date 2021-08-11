@@ -1,0 +1,99 @@
+body{
+background-image:url("cdj.png");
+background-size:100% 200%;
+background-attachment:fixed;
+color:red;
+text-align:center;
+}
+div{
+padding:15px;
+text-align:center;
+border:solid 5px black;
+border-radius:10px;
+margin-left:25%;
+margin-top:25px;
+width:50%;
+}
+.input{
+background-color:black;
+border:solid 4px gold;
+border-radius:2px;
+width:200px;
+height:30px;
+margin-bottom:10px;
+color:rgb(123,345,231);
+text-align:center;
+tet
+}
+.lab{
+background-color:gold;
+border:outset 5px black;
+padding:5px;
+margin:5px;
+border-radius:25px;
+width:175px;
+display:inline-block;
+}
+header{
+background-color:black;
+border:outset 5px gold;
+padding:5px;
+margin-left:12px;
+margin-right:12px;
+border-radius:50px;
+color:gold;
+
+}
+.nav_menu
+{
+overflow:hidden;
+background-color:black;
+border:solid 5px yellow;
+border-radius:5px;
+width:877px;	
+margin-left:24%;
+margin-top:25px;
+}
+.nav_menu a{
+float:left;
+display:block;
+color:gold;
+text-align:center;
+padding:14px 16px;
+text-decoration:none;
+border:solid 2px gold;
+}
+.nav_menu a:hover
+{
+background-color:gold;color:black;
+}
+.header2
+{
+ background-color:black;
+padding:15px;
+text-align:center;
+border:solid 5px gold;
+color:gold	;
+border-radius:400px;
+width:50%;
+margin-bottom:20px;
+}
+.output
+{
+overflow:hidden;
+box-shadow:0 0 50px rgba(0,0,0,0.15);
+padding:5px;
+text-align:center;
+border:solid 5px gold;
+border-radius:5px 5px 0 0;
+background-color:gold;
+color:black;
+width="100vw";
+}
+table
+{
+border:solid 5px black;
+width:100%;
+height=100%;
+background-color:lightgrey;
+}
